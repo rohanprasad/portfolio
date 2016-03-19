@@ -1,0 +1,22 @@
+img{
+	vertical-align: middle;
+}
+
+.section-title{
+	margin-top: 70px;
+	color: #222;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+
+.section-title:after {
+    display: block;
+    content: " ";
+    width: 130px;
+    height: 1px;
+    background: #E6E6E6;
+    margin: 20px auto 48px;
+}
