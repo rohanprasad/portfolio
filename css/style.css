@@ -1,5 +1,89 @@
-img{
-	vertical-align: middle;
+a{
+	background: none !important;
+}
+
+.banner-image img{
+	display: inherit;
+	margin: 0px auto 30px;
+	max-width: 100%;
+}
+
+.copyright{
+	background: #1a1a1a;
+	color: #a0a0a0;
+	padding: 5px 0px 5px;
+}
+
+
+.current-menu-item{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.divider{
+	border-top: 1px solid #ccc;
+}
+
+.footer{
+	background: #1a1a1a;
+	color: #FFF;
+	padding: 5px 0px 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Montserrat, sans-serif;
+}
+
+.footer div{
+	margin: 20px;
+}
+
+.footer div span{
+	margin: 20px 20px;	
+}
+
+.footer div span a{
+	text-decoration: none;
+	color: #a0a0a0;
+}
+
+.fa{
+	font-size: 50px;
+}
+
+.home-banner{
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/noise.png"), url("../img/banner1.jpg");
+	background-size: auto, cover;		
+	background-repeat: repeat;
+	padding: 200px 0px 200px ;
+}
+
+.menu{
+	text-align: center;
+	padding: 25px 0px 25px;
+}
+
+.menu-item{
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: Montserrat, sans-serif;
+}
+
+.menu-item:hover{
+	color: #FFF;
+}
+
+.overlay{
+	background: #000;
+	color: #FFF;
+}
+
+.section{
+	margin: 40px auto 40px;
 }
 
 .section-title{
@@ -19,4 +103,29 @@ img{
     height: 1px;
     background: #E6E6E6;
     margin: 20px auto 48px;
+}
+
+.subtitle{
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5px;
+}
+
+.title{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	font-family: 'Lato', sans-serif;
+	min-height: 58px;
+}
+
+.work-item img{
+	max-width: 100%;
+}
+
+#home{
+	margin: auto;
 }
