@@ -2,32 +2,64 @@ a{
 	background: none !important;
 }
 
+body{
+	font-family: arial;
+}
+
 .banner-image img{
 	display: inherit;
 	margin: 0px auto 30px;
 	max-width: 100%;
 }
 
-.copyright{
-	background: #1a1a1a;
-	color: #a0a0a0;
-	padding: 5px 0px 5px;
+.content{
+	max-width: 75%;
+	margin: auto;
 }
 
+.copyright{
+	background: #1a1a1a;
+	color: #545454;
+	padding: 15px 0px 15px;
+}
 
 .current-menu-item{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .divider{
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #2B2B2B;
+}
+
+.ex-role{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Montserrat, sans-serif;
+}
+
+.ex-time{
+	max-width: 12%;
+	border-radius: 15px 50px;
+	padding: 50px;
+	color: #333;
+	font-size: 25px;
+	font-family: Montserrat, sans-serif;
+	border: 3px solid #333;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.ex-title{
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Montserrat, sans-serif;
 }
 
 .footer{
 	background: #1a1a1a;
 	color: #FFF;
-	padding: 5px 0px 5px;
-	font-size: 20px;
+	padding: 30px 0px 10px;
+	font-size: 17px;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: Montserrat, sans-serif;
@@ -38,7 +70,7 @@ a{
 }
 
 .footer div span{
-	margin: 20px 20px;	
+	margin: 10px 10px;	
 }
 
 .footer div span a{
@@ -47,7 +79,7 @@ a{
 }
 
 .fa{
-	font-size: 50px;
+	font-size: 25px;
 }
 
 .home-banner{
@@ -56,7 +88,22 @@ a{
 	background-image: url("../img/noise.png"), url("../img/banner1.jpg");
 	background-size: auto, cover;		
 	background-repeat: repeat;
-	padding: 200px 0px 200px ;
+	padding: 300px 0px 200px ;
+}
+
+.img-holder{
+	margin: auto;
+	max-width: 60%;
+}
+
+.img-holder tbody tr td{
+	padding: 30px;
+}
+
+
+.img-holder tbody tr td p{
+	line-height: 1.8em;
+    	font-size: 16px;
 }
 
 .menu{
@@ -80,6 +127,14 @@ a{
 .overlay{
 	background: #000;
 	color: #FFF;
+}
+
+.round{
+	border-radius: 50%;
+}
+
+.sec{
+	margin: 20px auto 20px;
 }
 
 .section{
